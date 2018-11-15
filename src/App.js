@@ -31,7 +31,7 @@ class App extends Component {
             <h3>Eli Rice Seeder</h3>
             <h4>Fall 2018</h4>
             <p>For the second semester of Engineering Social Innovation, I worked on improving a crop planter designed to work in complex environmental conditions. We were able model a new steering and planting system that reduced the amount of manpower required to maintain a consistent agricultural output.</p>
-            <h6><a href="https://github.com/sohuja96/esivipFall18">View it on Github</a></h6>
+            <h6><a href="https://github.com/sohuja96/gtvip/tree/fall18">View it on Github</a></h6>
             </div>
           </div>
           <div className="project" id="light">
@@ -39,7 +39,7 @@ class App extends Component {
             <h3>Community Safety Lighting</h3>
             <h4>Spring 2018</h4>
             <p>For my Engineering Social Innovation project, my team collaboratively designed a modular lighting system for the sake of neighborhood visibility and safety at night. Proof-of-concept experiments were conducted to show the block-components of how the product would work on a circuit level.</p>
-            <h6><a href="https://github.com/sohuja96/esivipSpring18">See it on Github</a></h6>
+            <h6><a href="https://github.com/sohuja96/gtvip/tree/spring18">See it on Github</a></h6>
             </div>
           </div>
           <div className="project" id="vis">
