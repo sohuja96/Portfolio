@@ -6,10 +6,22 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>
-            Joshua Santillo
-          </h1>
+          <h1>Joshua Dominic Santillo</h1>
         </header>
+        <div className="aboutdiv">
+          <div className="about">
+            <h1>About</h1>
+          </div>
+          <div className="about">
+            <h1>Georgia Institute of Technology</h1>
+            <h3>Bachelor of Science in Computer Science</h3>
+          </div>
+          <div className="about">
+            <h1>GT Grand Challenges</h1>
+            <h3>Waste to Sustenance Team</h3>
+          </div>
+
+        </div>
         <h2>Industry Work</h2>
         <div className="industry">
           <h3>The Home Depot</h3>
@@ -22,9 +34,9 @@ class App extends Component {
           </ul>
         </div>
         <div className="projectdiv">
-          <div>
-          <h1>Projects</h1>
-          <h3>Fun, Notable, and on <a href="https://github.com/sohuja96">Github</a></h3>
+          <div className="unused">
+            <h1>Projects</h1>
+            <h3>Fun, Notable, and on <a href="https://github.com/sohuja96">Github</a></h3>
           </div>
           <div className="project" id="rice">
             <div className="textbox">
