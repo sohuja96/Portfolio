@@ -1,16 +1,17 @@
 .App {
   text-align: center;
-
 }
+
 
 .App-header {
   z-index: 1;
   position: fixed;
   width: 100%;
-  -moz-box-shadow:    0px 5px 10px rgba(0,0,0,.8);
-  -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,.8);
-  box-shadow: 0px 5px 10px rgba(0,0,0, .8);
+  -moz-box-shadow:    0px 5px 4px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0px 5px 4px rgba(0,0,0,.3);
+  box-shadow: 0px 5px 4px rgba(0,0,0, .3);
   background-color: #bf2a2a;
+  background-color: #282c34;
   min-height: 8vh;
   display: flex;
   flex-direction: column;
@@ -88,25 +89,29 @@
 .unused {
   background-color: #282c34;
   color:white;
-  -moz-box-shadow:    5px 5px 5px rgba(0,0,0, .6);
-  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0, .6);
-  box-shadow: 5px 5px 5px rgba(0,0,0, .6);
 }
 
 .aboutdiv {
-  margin: 0 0 10vh 0;
-  padding: 20vh 0 0 0;
+  padding: 25vh 0 0 0;
+  width: 1fr;
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-gap: 0em;
   color:black;
-}
-.about {
-  background-color: #024959;
   background-color: #f2c777;
-  -moz-box-shadow:    5px 5px 5px rgba(0,0,0, .6);
-  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0, .6);
-  box-shadow: 5px 5px 5px rgba(0,0,0, .6);
+}
+
+.about h1 {
+  width: inherit;
+  margin: 0 0 1vh 0;
+}
+.about h3 {
+  width: inherit;
+  margin: 0;
+}
+.about p {
+  padding: 0 7% 1em 7%;
+  margin: 0;
 }
 
 .textbox {
@@ -116,14 +121,20 @@
 
 .industry {
   text-align: center;
+  padding: 1em 0 2em 0;
 }
 
 .industry ul {
+  margin: 0;
   text-align: left;
-  min-width: 30em;
-  padding:0 40% 0 40%;
+  display: inline-block;
 }
 
+svg {
+  padding: 0 5px 3px 5px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
 #rice {
   background-image: url("/rice.png");
 }
