@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.social {
+  margin: 0 0 5px 0;
+  display: block;
+  flex-direction: row;
+  text-align: center;
+}
+
+.social button {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
 
 .App-header {
   z-index: 1;
@@ -129,9 +140,15 @@
   text-align: left;
   display: inline-block;
 }
-
+.mia {
+  bottom: 0;
+  width: 100%;
+  background-color: #282c34;
+  margin: 1em 0 0 0;
+  padding: 1em 0 1em 0;
+}
 svg {
-  padding: 0 5px 3px 5px;
+  padding: 0 5px 0 5px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
