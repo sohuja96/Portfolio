@@ -40,12 +40,8 @@ render() {
         </header>
         <div className="aboutdiv">
           <div className="about">
-            <h1>Professional Mission</h1>
-            <p>To create relationships and products that reflect well on myself and my organizations, and to always further my professional education.</p>
-          </div>
-          <div className="about">
-            <h1>Academic Mission</h1>
-            <p>To learn at every opportunity in order to think critically and construct mental models to use in approaching computational problem-solving.</p>
+            <h1>About</h1>
+              <p>I study computation and innovation at Georgia Tech, graduating in August of 2019. I worked as a Software Development Intern at The Home Depot as an undergraduate and will soon be starting work as a Software Engineer at NCR Global. Problems that interest me are challenges that scale.</p>
           </div>
         </div>
         <div className="industry">
