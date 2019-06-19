@@ -40,41 +40,28 @@ render() {
         </header>
         <div className="aboutdiv">
           <div className="about">
-            <h1>About</h1>
-              <p>I study computation and innovation at Georgia Tech, graduating in August of 2019. I worked as a Software Development Intern at The Home Depot as an undergraduate and will soon be starting work as a Software Engineer at NCR Global. Problems that interest me are challenges that scale.</p>
+            <h2>About</h2>
+              <p>Problems that interest me are challenges that scale.</p>
           </div>
         </div>
         <div className="industry">
           <h2>Industry Work</h2>
           <h3>IT Intern at The Home Depot</h3>
+          <h6>2017-2019</h6>
           <ul className="worklist">
-            <li>Identified specific surfaces using Tensorflow</li>
-            <li>Extended an existing API using Spring Boot</li>
-            <li>Worked to improve an Angular2 automation tool</li>
-            <li>Developed a Node.js health-monitoring microservice</li>
-            <li>Prototyped Angular.js supply-chain improvements</li>
+            <li>Tensorflow Object Detection</li>
+            <li>Google Cloud Vision Object Detection</li>
+            <li>Spring Boot API for Elasticsearch</li>
+            <li>Angular2 Configuration Tool</li>
+            <li>Node.js AppDynamics Controller</li>
+            <li>Angular.js WMS Wrapper</li>
           </ul>
         </div>
         <div className="projectdiv">
           <div className="unused">
             <h1>Projects</h1>
-            <h3>Fun, Notable, and on <a href="https://github.com/sohuja96">Github</a></h3>
-          </div>
-          <div className="project" id="rice">
-            <div className="textbox">
-            <h3>Eli Rice Seeder</h3>
-            <h4>Fall 2018</h4>
-            <p>Modeled a new steering and planting system compatable with wet and dry seasons.</p>
-            <h6><a href="https://github.com/sohuja96/gtvip/tree/fall18">View it on Github</a></h6>
-            </div>
-          </div>
-          <div className="project" id="light">
-            <div className="textbox">
-            <h3>Community Safety Lighting</h3>
-            <h4>Spring 2018</h4>
-            <p>Designed a modular lighting system for community safety.</p>
-            <h6><a href="https://github.com/sohuja96/gtvip/tree/spring18">See it on Github</a></h6>
-            </div>
+            <br></br>
+            <h2>Fun & Notable</h2>
           </div>
           <div className="project" id="vis">
             <div className="textbox">
@@ -120,11 +107,12 @@ render() {
         <div className="industry">
           <h2>Academic Experience</h2>
           <h3>Ba.S. Computer Science at Georgia Tech</h3>
+          <h6>2015-2019</h6>
           <ul className="worklist">
             <li>Concentration in Artificial Intelligence</li>
             <li>Concentration in Human-Computer Interaction</li>
-            <li>Made memories</li>
-            <li>Class of 2019</li>
+            <li>Barcelona Summer Program (2019)</li>
+            <li>GT Grand Challenges (2015)</li>
           </ul>
         </div>
         <div className="mia">
