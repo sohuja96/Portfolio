@@ -41,21 +41,25 @@ render() {
         <div className="aboutdiv">
           <div className="about">
             <h2>About</h2>
-              <p>Problems that interest me are challenges that scale.</p>
+              <h4>Problems that interest me are challenges that scale.</h4>
           </div>
         </div>
-        <div className="industry">
-          <h2>Industry Work</h2>
-          <h3>IT Intern at The Home Depot</h3>
-          <h6>2017-2019</h6>
-          <ul className="worklist">
-            <li>Tensorflow Object Detection</li>
-            <li>Google Cloud Vision Object Detection</li>
-            <li>Spring Boot API for Elasticsearch</li>
-            <li>Angular2 Configuration Tool</li>
-            <li>Node.js AppDynamics Controller</li>
-            <li>Angular.js WMS Wrapper</li>
-          </ul>
+        <div className="workdiv"> 
+          <div className="industry">
+            <h3>Software Engineer</h3>
+            <h4>NCR Cloud Services</h4>
+            <h6>2019-Present</h6>
+          </div>
+          <div className="industry">
+            <h3>Software Engineering Intern</h3>
+            <h4>The Home Depot</h4>
+            <h6>2017-2019</h6>
+          </div>
+          <div className="industry">
+            <h3>Ba.S. Computer Science</h3>
+            <h4>Georgia Tech</h4>
+            <h6>2015-2019</h6>
+          </div>
         </div>
         <div className="projectdiv">
           <div className="unused">
@@ -63,57 +67,72 @@ render() {
             <br></br>
             <h2>Fun & Notable</h2>
           </div>
-          <div className="project" id="vis">
-            <div className="textbox">
+          <div className="project">
+            <h3>Tensorflow Object Detection</h3>
+            <h4>Spring 2019</h4>
+            <p>Locally configure and train a model on Tensorflow's Object Detection networks.</p>
+            <h6><a href="https://corporate.homedepot.com/">Built for THD</a></h6>
+          </div>
+          <div className="project">
+            <h3>Text Analysis Tool</h3>
+            <h4>Spring 2019</h4>
+            <p>A plain text parser for analyzing the use of certain words across multiple documents, built in React.js.</p>
+            <h6><a href="https://github.com/sohuja96/Words-Count">Spot it on Github</a></h6>
+          </div>
+          <div className="project">
             <h3>Data Visualizations</h3>
             <h4>Spring 2018</h4>
             <p>Used D3.js to create interactive and informative visualizations of high-dimensional datasets.</p>
             <h6><a href="https://github.com/sohuja96/Data-Visualizations">Inspect it on Github</a></h6>
-            </div>
           </div>
-          <div className="project" id="oom">
-            <div className="textbox">
+          <div className="project">
             <h3>Order-of-Magnitude Classifier</h3>
             <h4>Spring 2018</h4>
             <p>Developed a CLI for learning the order of magnitude of a numerical dataset using Scikit Learn.</p>
             <h6><a href="https://github.com/sohuja96/OoM-Classifier">Glimpse it on Github</a></h6>
-            </div>
           </div>
-          <div className="project" id="reac">
-            <div className="textbox">
-            <h3>Image Presenter</h3>
+          <div className="project">
+            <h3>Google Cloud Vision Object Detection</h3>
+            <h4>Fall 2018</h4>
+            <p>Collected data and assessed GCP AutoML Vision on industry-relevant retail problems.</p>
+            <h6><a href="https://corporate.homedepot.com/">Built for THD</a></h6>
+          </div>
+          <div className="project">
+            <h3>Database Administration Interface</h3>
+            <h4>Summer 2018</h4>
+            <p>Developed the backend for an Elasticsearch database administration interface by using Spring Boot and React.js.</p>
+            <h6><a href="https://corporate.homedepot.com/">Built for THD</a></h6>
+          </div>
+          <div className="project">
+            <h3>Logistics Tool Improvement</h3>
+            <h4>Spring 2018</h4>
+            <p>Delivered new functionality to an existing Angular2 web app for a Logistics Team client.</p>
+            <h6><a href="https://corporate.homedepot.com/">Built for THD</a></h6>
+          </div>
+          <div className="project">
+            <h3>AppDynamics Data Controller</h3>
             <h4>Fall 2017</h4>
-            <p>Learned about React.js and Webpack to depoloy a simple single-page application to display images.</p>
-            <h6><a href="https://github.com/sohuja96/React-Dogs">Examine it on Github</a></h6>
-            </div>
+            <p>Used Node.js to collect and format AppDynamics data about a suite of internal websites, serving the information to a dashboard application.</p>
+            <h6><a href="https://corporate.homedepot.com/">Built for THD</a></h6>
           </div>
-          <div className="project" id="java">
-            <div className="textbox">
+          <div className="project">
+            <h3>Web App Wrapper</h3>
+            <h4>Summer 2017</h4>
+            <p>Researched, designed, and implemented a fresh user experience for an existing WMS application using Angular.js as a front-end wrapper.</p>
+            <h6><a href="https://corporate.homedepot.com/">Built for THD</a></h6>
+          </div>
+          <div className="project">
             <h3>Algorithm Implementations</h3>
             <h4>Fall 2016</h4>
             <p>Used Java to program different data structures, string search algorithms, and graph algorithms.</p>
             <h6><a href="https://github.com/sohuja96/Java-Algorithms">Observe it on Github</a></h6>
-            </div>
           </div>
-          <div className="project" id="matlab">
-            <div className="textbox">
+          <div className="project">
             <h3>City Animation</h3>
             <h4>Spring 2016</h4>
             <p>Used MATLAB plotting capabilities to render a short animation.</p>
             <h6><a href="https://github.com/sohuja96/MATLAB-City-Animation">Spy it on Github</a></h6>
-            </div>
           </div>
-        </div>
-        <div className="industry">
-          <h2>Academic Experience</h2>
-          <h3>Ba.S. Computer Science at Georgia Tech</h3>
-          <h6>2015-2019</h6>
-          <ul className="worklist">
-            <li>Concentration in Artificial Intelligence</li>
-            <li>Concentration in Human-Computer Interaction</li>
-            <li>Barcelona Summer Program (2019)</li>
-            <li>GT Grand Challenges (2015)</li>
-          </ul>
         </div>
         <div className="mia">
           <a className="App-link"

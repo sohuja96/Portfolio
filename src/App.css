@@ -1,32 +1,18 @@
 .App {
   text-align: center;
+  color: white;
+  background-color: #282c34;
 }
 
-.social {
-  margin: 0 0 5px 0;
-  display: block;
-  flex-direction: row;
-  text-align: center;
-}
-
-.social button {
-  background-color: rgba(0,0,0,0);
-  border-color: rgba(0,0,0,0);
-}
-
-.social button:hover {
-  cursor: pointer;
-}
 
 .App-header {
   z-index: 1;
   position: fixed;
   width: 100%;
+  background-color: #282c34;
   -moz-box-shadow:    0px 5px 4px rgba(0,0,0,.3);
   -webkit-box-shadow: 0px 5px 4px rgba(0,0,0,.3);
   box-shadow: 0px 5px 4px rgba(0,0,0, .3);
-  background-color: #bf2a2a;
-  background-color: #282c34;
   min-height: 8vh;
   display: flex;
   flex-direction: column;
@@ -40,123 +26,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-.project {
-  vertical-align: center;
-  background-color: rgba(40,44,68,.6);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  -moz-box-shadow:    inset 0 0 90px rgba(0,0,0, .6);
-  -webkit-box-shadow: inset 0 0 90px rgba(0,0,0, .6);
-  box-shadow:         inset 0 0 90px rgba(0,0,0, .6);
-  transition: 1.1s;
 
-  filter: sepia(100%);
-}
-
-.project p {
-  opacity: 0;
-  transition: .4s;
-}
-
-.project a {
-  opacity: 0;
-  transition: .4s;
-  color: #61dafb;
-}
-.project:hover {
-  background-color: rgba(40,44,52,1);
-  -moz-box-shadow:    inset 0 0 13px rgba(0,0,0,0);
-  -webkit-box-shadow: inset 0 0 13px rgba(0,0,0,0);
-  box-shadow:         inset 0 0 13px rgba(0,0,0,0);
-  transition: .4s;
-  filter: sepia(0%);
-}
-.project:hover p {
-  opacity: 1;
-  transition: .9s;
-}
-.project:hover a {
-  opacity: 1;
-  transition: .9s;
-}
-
-.projectdiv {
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1em;
-}
-
-.unused {
-  background-color: #282c34;
-  color:white;
+.about h1 {
+  width: inherit;
+  margin: 0 0 1vh 0;
 }
 
 .aboutdiv {
   padding: 23vh 20% 0 20%;
   width: 1fr;
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-  grid-gap: 0em;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   color:black;
   background-color: #f2c777;
 }
 
-.about h1 {
-  width: inherit;
-  margin: 0 0 1vh 0;
-}
-.about h3 {
-  width: inherit;
-  margin: 0;
-}
-.about p {
-  padding: 0 7% 1em 7%;
-  margin: 0;
-}
-
-.textbox {
-  background-color: inherit;
-  border-radius: inherit;
-}
-
 .industry {
+  margin: 1em;
+  border-bottom: #fff solid 1px;
   text-align: center;
-  padding: 1em 0 2em 0;
-}
-
-.industry ul {
-  margin: 0;
-  text-align: left;
-  display: inline-block;
-}
-
-.industry h2 {
-  margin: 0;
-  padding: 10px;
-  background-color: #282c34;
-  color:white;
+  padding: 1em 0 1em 0;
 }
 .industry h3 {
   margin: 0;
   padding: 0;
-  background-color: #f2c777;
+}
+.industry h4 {
+  color: #f2c777;
+  margin: 0;
+  padding: 0;
 }
 .industry h6 {
   margin: 0;
   padding: 0;
-  background-color: #f2c777;
 }
+
 .mia {
   bottom: 0;
   width: 100%;
@@ -164,11 +69,102 @@
   margin: 1em 0 0 0;
   padding: 1em 0 1em 0;
 }
+
+.project {
+  padding: 0;
+  margin: 0;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 1.1s;
+  border: 2px solid #f2c777;
+}
+.project:hover {
+  border: 2px solid #fff;
+  transition: .1s;
+}
+.project a {
+  padding: 0;
+  margin: 0;
+  transition: .5s;
+}
+.project:hover a {
+  color: #61dafb;
+  transition: .1s;
+}
+.project h3 {
+  width: inherit;
+  color: #f2c777;
+  transition: .5s;
+}
+.project:hover h3 {
+  align-items: flex-start;
+  transition: .1s;
+}
+.project h4 {
+  opacity: 0;
+  transition: .5s;
+}
+.project:hover h4 {
+  opacity: 1;
+  transition: .2s;
+}
+.project p {
+  opacity: 0;
+  transition: .2s;
+}
+.project:hover p {
+  opacity: 1;
+  transition: .2s;
+}
+
+.projectdiv {
+  padding: 0 1em 0 1em;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+.social {
+  margin: 0 0 5px 0;
+  display: block;
+  flex-direction: row;
+  text-align: center;
+}
+.social button {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
+.social button:hover {
+  cursor: pointer;
+}
+
+
+.unused {
+  background-color: #f2c777;
+  color: black;
+}
+
+.workdiv {
+  vertical-align: center;
+  margin: 0 0 3vh 0;
+  width: 1fr;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 0em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-style: bold;
+}
+
 svg {
   padding: 0 5px 0 5px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
-}
-.project {
-  background-image: url("/backdrop.svg");
 }
