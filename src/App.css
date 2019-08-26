@@ -2,44 +2,37 @@
   text-align: center;
   color: white;
   background-color: #282c34;
+  position: absolute;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 
 .App-header {
   z-index: 1;
-  position: fixed;
-  width: 100%;
   background-color: #282c34;
   -moz-box-shadow:    0px 5px 4px rgba(0,0,0,.3);
   -webkit-box-shadow: 0px 5px 4px rgba(0,0,0,.3);
   box-shadow: 0px 5px 4px rgba(0,0,0, .3);
-  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
-
-.about h1 {
-  width: inherit;
-  margin: 0 0 1vh 0;
+  overflow-wrap: break-word;
+  min-height: 11%;
+  min-width: 100%;
 }
 
 .aboutdiv {
-  padding: 23vh 20% 0 20%;
-  width: 1fr;
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   color:black;
   background-color: #f2c777;
+  overflow-wrap: break-word;
+  width: 100%;
 }
 
 .industry {
@@ -50,29 +43,30 @@
 }
 .industry h3 {
   margin: 0;
-  padding: 0;
 }
 .industry h4 {
   color: #f2c777;
   margin: 0;
-  padding: 0;
 }
 .industry h6 {
   margin: 0;
-  padding: 0;
+}
+
+.industrydiv {
+  vertical-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 0em;
 }
 
 .mia {
-  bottom: 0;
-  width: 100%;
-  background-color: #282c34;
   margin: 1em 0 0 0;
-  padding: 1em 0 1em 0;
+  height: 2em;
+  text-align: center;
 }
 
 .project {
-  padding: 0;
-  margin: 0;
+  margin: 3px;
   background-color: #282c34;
   display: flex;
   flex-direction: column;
@@ -87,7 +81,6 @@
   transition: .1s;
 }
 .project a {
-  padding: 0;
   margin: 0;
   transition: .5s;
 }
@@ -122,10 +115,10 @@
 }
 
 .projectdiv {
-  padding: 0 1em 0 1em;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1em;
+  grid-gap: 1%;
+  margin: 1em;
 }
 
 .social {
@@ -142,19 +135,16 @@
   cursor: pointer;
 }
 
+.underwear{
+  background-color: #282c34;
+  min-width: 100%;
+  height: 11%;
+  min-height: 11%
+}
 
 .unused {
   background-color: #f2c777;
   color: black;
-}
-
-.workdiv {
-  vertical-align: center;
-  margin: 0 0 3vh 0;
-  width: 1fr;
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  grid-gap: 0em;
 }
 
 a {
