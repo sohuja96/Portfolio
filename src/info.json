@@ -1,0 +1,82 @@
+{
+	"title" : "Joshua Dominic Santillo",
+	"about" : "Interested in problems that scale.",
+	"socialmedia" : {
+		"email" : "",
+		"facebook" : "",
+		"github" : "",
+		"linkedin" : ""
+	},
+	"work" : [
+		{
+			"role" : "Software Engineer",
+			"company" : "NCR Corporation",
+			"timeframe" : "2019-Present",
+			"website" : "https://www.ncr.com/"
+		},
+		{
+			"role" : "Software Engineering Intern",
+			"company" : "The Home Depot",
+			"timeframe" : "2017-2019",
+			"website" : "https://corporate.homedepot.com/"
+		},
+		{
+			"role" : "Ba.S. Computer Science",
+			"company" : "Georgia Tech",
+			"timeframe" : "2015-2019",
+			"website" : "https://www.gatech.edu/"
+		}
+	],
+	"projects" : [
+		{"title" : "Tensorflow Object Detection",
+			"description" : "Locally configure and train a model on Tensorflow's Object Detection networks.",
+			"year" : 2019,
+			"linktext" : "Built for THD",
+			"link" : "https://homedepot.com"},
+		{"title" : "Text Analysis Tool",
+			"description" : "A plain text parser for analyzing the use of certain words across multiple documents, built in React.js.",
+			"year" : 2019,
+			"linktext" : "Github",
+			"link" : "https://github.com/sohuja96/words-count"},
+		{"title" : "Data Visualizations",
+			"description" : "Used D3.js to create interactive and informative visualizations of high-dimensional datasets.",
+			"year" : 2018,
+			"linktext" : "Github",
+			"link" : "https://github.com/sohuja96/Data-Visualizations"},
+		{"title" : "Classifier CLI",
+			"description" : "Developed a CLI for learning the order of magnitude of a numerical dataset using Scikit Learn.",
+			"year" : 2018,
+			"linktext" : "Github",
+			"link" : "https://github.com/sohuja96/OoM-Classifier"},
+		{"title" : "Google Cloud Object Detection",
+			"description" : "Collected data and assessed GCP AutoML Vision on industry-relevant retail problems.",
+			"year" : 2018,
+			"linktext" : "Built for THD",
+			"link" : "https://homedepot.com"},
+		{"title" : "Database Administration Interface",
+			"description" : "Developed the backend for an Elasticsearch database administration interface by using Spring Boot and React.js.",
+			"year" : 2018,
+			"linktext" : "Built for THD",
+			"link" : "https://homedepot.com"},
+		{"title" : "Logistics Web App",
+			"description" : "Delivered new functionality to an existing Angular2 web app for a Logistics Team client.",
+			"year" : 2018,
+			"linktext" : "Built for THD",
+			"link" : "https://homedepot.com"},
+		{"title" : "AppDynamics Data Aggregator",
+			"description" : "Used Node.js to collect and format AppDynamics data about a suite of internal websites, serving the information to a dashboard application.",
+			"year" : 2017,
+			"linktext" : "Built for THD",
+			"link" : "https://homedepot.com"},
+		{"title" : "UI Wrapper",
+			"description" : "Researched, designed, and implemented a fresh user experience for an existing WMS application using Angular.js as a front-end wrapper.",
+			"year" : 2017,
+			"linktext" : "Built for THD",
+			"link" : "https://homedepot.com"},
+		{"title" : "Algorithm Implementations",
+			"description" : "Used Java to program different data structures, string search algorithms, and graph algorithms.",
+			"year" : 2016,
+			"linktext" : "Github",
+			"link" : "https://github.com/sohuja96/Java-Algorithms"}
+	]
+}

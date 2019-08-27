@@ -72,13 +72,14 @@ constructor(props) {
           <h1>Projects</h1>
         </div>
         {this.state.projects}
-        <div className="mia">
-          <a
+        <div className="unused" style={{backgroundColor: "#282c34"}}>
+          <h2><a
+            style={{color: "#fff"}}
             href="https://atlanta.net/"
             target="_blank"
             rel="noopener noreferrer">
             Made in Atlanta
-          </a>
+          </a></h2>
         </div>
       </div>
     </div>
