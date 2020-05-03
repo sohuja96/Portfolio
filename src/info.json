@@ -9,21 +9,27 @@
 	},
 	"work" : [
 		{
-			"role" : "Software Engineer",
+			"time" : "2019 - Present",
 			"company" : "NCR Corporation",
-			"timeframe" : "2019-Present",
+			"description" : "Business Services Platform",
 			"website" : "https://www.ncr.com/"
 		},
 		{
-			"role" : "Software Engineering Intern",
+			"time" : "2018 - 2019",
 			"company" : "The Home Depot",
-			"timeframe" : "2017-2019",
+			"description" : "Orangeworks",
 			"website" : "https://corporate.homedepot.com/"
 		},
 		{
-			"role" : "Ba.S. Computer Science",
+			"time" : "2017 - 2018",
+			"company" : "The Home Depot",
+			"description" : "Design Center and Supply Chain",
+			"website" : "https://corporate.homedepot.com/"
+		},
+		{
+			"time" : "2015 - 2019",
 			"company" : "Georgia Tech",
-			"timeframe" : "2015-2019",
+			"description" : "Ba.S. Computer Science",
 			"website" : "https://www.gatech.edu/"
 		}
 	],

@@ -30,9 +30,9 @@ constructor(props) {
   this.state = {
     work: data.work.map((w, i) => {
       return (<div key={i} className="industry" onClick={() => redir(w.website)}>
-        <h2>{w.role}</h2>
+        <h2>{w.time}</h2>
         <h4>{w.company}</h4>
-        <h6>{w.timeframe}</h6>
+        <h6>{w.description}</h6>
       </div>
     )}),
     projects: data.projects.map((p, i) => {
@@ -67,9 +67,6 @@ constructor(props) {
             </button>
           </div>
         </header>
-        <div className="industrydiv"> 
-          { this.state.work }
-        </div>
         <div className="projectdiv">
           <div className="unused"
             onClick={(() => redir("https://github.com/sohuja96"))}
@@ -77,18 +74,9 @@ constructor(props) {
             <h1>Projects</h1>
           </div>
           {this.state.projects}
-          <div className="unused"
-          onClick={ (() => redir("https://atlanta.net/"))}
-          style={{backgroundColor: "#282c34"}}>
-            <h2><a
-              id="mia"
-              style={{color: "#fff"}}
-              href="https://atlanta.net/"
-              target="_blank"
-              rel="noopener noreferrer">
-              Made in Atlanta
-            </a></h2>
-          </div>
+        </div>
+        <div className="industrydiv"> 
+          { this.state.work }
         </div>
       </div>
     );
